@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartyInvites", "PartyInvites.csproj", "{8B06BD95-ABC3-4D3B-8359-B1D935C982C4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartyInvites", "PartyInvites.csproj", "{91FC2A64-9020-4C29-9272-FDBE2819CB6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8B06BD95-ABC3-4D3B-8359-B1D935C982C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8B06BD95-ABC3-4D3B-8359-B1D935C982C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8B06BD95-ABC3-4D3B-8359-B1D935C982C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8B06BD95-ABC3-4D3B-8359-B1D935C982C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91FC2A64-9020-4C29-9272-FDBE2819CB6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91FC2A64-9020-4C29-9272-FDBE2819CB6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91FC2A64-9020-4C29-9272-FDBE2819CB6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91FC2A64-9020-4C29-9272-FDBE2819CB6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {FB4F40C6-5D27-4763-AAAC-8B4A60B995C4}
+		SolutionGuid = {13CBD8BF-1DB7-462D-96AA-422E92CECC26}
 	EndGlobalSection
 EndGlobal
