@@ -3,6 +3,7 @@ using Microsoft.Extensions.Logging;
 using PartyInvites.Models;
 using System;
 using System.Diagnostics;
+using System.Linq;
 
 namespace PartyInvites.Controllers
 {
@@ -20,6 +21,31 @@ namespace PartyInvites.Controllers
 			var hour = DateTime.Now.Hour;
 			ViewBag.Greeting = hour < 12 ? "GoodMorning" : "GoodAfternoon";
 			return View("MyView");
+		}
+
+		[HttpGet]
+		public ViewResult RsvpForm()
+		{
+			return View();
+		}
+
+		[HttpPost]
+		public ViewResult RsvpForm(GuestResponse guestResponse)
+		{
+			if (ModelState.IsValid)
+			{
+				Repository.AddResponse(guestResponse);
+				return View("Thanks", guestResponse);
+			}
+			else
+			{
+				return View();
+			}
+		}
+
+		public IActionResult ListReponses()
+		{
+			return View(Repository.Responses.Where(r => r.WillAttend == true));
 		}
 
 		public IActionResult Privacy()
